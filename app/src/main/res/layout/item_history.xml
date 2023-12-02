@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingTop="@dimen/_6sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_6sdp">
+
+    <ImageView
+        android:id="@+id/bookmark_image"
+        android:layout_width="@dimen/_36sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/_4sdp"
+        android:src="@drawable/iv_web_google" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookmark_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/bookmark_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:singleLine="true"
+            android:text="www.google.com"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bookmark_optionmenu"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/_6sdp"
+        android:tint="@color/Black"
+        app:srcCompat="@drawable/iv_option" />
+</LinearLayout>

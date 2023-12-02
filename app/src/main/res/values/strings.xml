@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dolphin Web Browser</string>
+    <string name="cleared_tabs_snackbar">Removed all tabs</string>
+    <string name="removed_tab_snackbar">Removed %1$s</string>
+    <string name="seeAll">See All</string>
+    <string name="tab_title">Private Search</string>
+    <string name="undo">Undo</string>
+
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ads_native">/6499/example/native</string>
+    <string name="interstail">/6499/example/interstitial</string>
+    <string name="policy_url">https://www.google.co.in/</string>
+    <string name="policy">Policy</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="browser">Browser</string>
+
+</resources>

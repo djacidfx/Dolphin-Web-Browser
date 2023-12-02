@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TabSwitcher">
+        <attr name="addTabButtonColor" format="color"></attr>
+        <attr name="emptyView" format="reference"></attr>
+        <attr name="emptyViewAnimationDuration" format="integer"></attr>
+        <attr name="layoutPolicy">
+            <enum name="auto" value="0" />
+            <enum name="phone" value="1" />
+            <enum name="tablet" value="2" />
+            <enum name="tablet_landscape" value="3" />
+        </attr>
+        <attr name="preserveState" format="boolean"></attr>
+        <attr name="showToolbars" format="boolean"></attr>
+        <attr name="tabBackgroundColor" format="color"></attr>
+        <attr name="tabCloseButtonIcon" format="reference"></attr>
+        <attr name="tabCloseButtonIconTint" format="color"></attr>
+        <attr name="tabContentBackgroundColor" format="color"></attr>
+        <attr name="tabIcon" format="reference"></attr>
+        <attr name="tabIconTint" format="color"></attr>
+        <attr name="tabPreviewFadeDuration" format="integer"></attr>
+        <attr name="tabPreviewFadeThreshold" format="integer"></attr>
+        <attr name="tabTitleTextColor" format="color"></attr>
+        <attr name="themeGlobal" format="reference"></attr>
+        <attr name="themePhone" format="reference"></attr>
+        <attr name="themeTablet" format="reference"></attr>
+
+        <attr name="toolbarMenu" format="reference"></attr>
+        <attr name="toolbarNavigationIcon" format="reference"></attr>
+        <attr name="toolbarNavigationIconTint" format="color"></attr>
+        <attr name="toolbarTitle" format="string"></attr>
+
+    </declare-styleable>
+
+
+</resources>

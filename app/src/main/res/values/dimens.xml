@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tab_switcher_drawable_size">100dp</dimen>
+    <dimen name="tablet_tab_container_height">48dp</dimen>
+</resources>

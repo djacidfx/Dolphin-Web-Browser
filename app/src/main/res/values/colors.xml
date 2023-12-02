@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6252d7</color>
+    <color name="colorPrimaryDark">#ffffffff</color>
+    <color name="Black">#ff000000</color>
+    <color name="white">#ffffff</color>
+    <color name="SkyBlue">#ff87ceeb</color>
+    <color name="White">#ffffffff</color>
+    <color name="YellowGreen">#ff9acd32</color>
+    <color name="colorAccent">#6252d7</color>
+    <color name="color_grey">#ff9e9e9e</color>
+    <color name="color_text">#ffaab5d5</color>
+    <color name="facebook_back">#ff3b5998</color>
+    <color name="gray">#ffa9a9a9</color>
+    <color name="linkdincolor">#ff0e76a8</color>
+    <color name="snackbar_action_text_color">#ff00bcd4</color>
+    <color name="theme_color">#ff449694</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.codebyte.dolphinwebbrowser.VdstudioAppUtils.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Browser"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.MoreNews" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.AdavanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme11" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.ExitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.ExitActivityHome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.DisplaySettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.BookmarkSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.GeneralActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.AdblockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.IncognitoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Browser_Icognito"
+
+            ></activity>
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.DownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.YouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.TwitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.instaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codebyte.dolphinwebbrowser.VdstudioAppActivity.BrowserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Browser_Icognito" />
+
+
+    </application>
+</manifest>

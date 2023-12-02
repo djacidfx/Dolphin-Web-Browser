@@ -1,0 +1,2 @@
+rootProject.name = "Dolphin Web Browser"
+include ':app'
